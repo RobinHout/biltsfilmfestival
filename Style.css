@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerFoto {
+    padding: 10px;
+    width: 100px;
+}
+.headerPicture {
+    display: flex;
+    align-items: center;
+}
+.headerButton {
+    background-color: black;
+    align-self: self-end;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    font-size: 17px;
+    transition: background-color 0.3s;
+    font-family: Arial, sans-serif;
+}
+a.headerButton {
+    text-decoration: none;
+}
+.headerButton:hover {
+    border-bottom: 1px solid white;
+}
+.homePictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homePicturesBoven {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.homePictureBoven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.homePictureBeneden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding-bottom: 5%;
+}
+
+.Picture {
+    width: 100%;
+    background-color: green;
+}
+
+.volgendFestival {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: lightgray;
+}
+.volgendFestivalTekst {
+    display: flex;
+    font-size: 350%;
+    justify-self: center;
+    padding: 2%;
+}
+.volgendFestivalFoto {
+    width: 80%;
+}
+.selectieFilms {
+    padding-bottom: 3%;
+}
+.selectieFilmsTekst {
+    display: flex;
+    justify-content: center;
+    background-color: #00a8f3;
+    font-size: 200%;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.film {
+    width: 30%;
+    text-align: center;
+    padding: 1%;
+}
+.film h3 {
+    padding-bottom: 2%;
+}
+.films {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    padding-bottom: 1%;
+}
+.filmpje {
+    width: 100%;
+    height: 250px;
+}
+.filmTekst {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+.footer {
+    padding: 5%;
+    display: block;
+    justify-items: center;
+    width: 90%;
+    background-color: lightblue;
+}
+.homeTekst {
+    padding: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+    width: 50%;
+}

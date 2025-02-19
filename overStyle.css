@@ -1,0 +1,44 @@
+.overFoto {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* width: 80vh; */
+    padding-top: 5%;
+}
+.overTekst {
+    display: block;
+    justify-self: center;
+    justify-content: center;
+    padding: 5%;
+}
+.contact {
+    display: block;
+    justify-self: center;
+    line-height: 1.5;
+    padding-bottom: 2%;
+    border-top: 1px solid gray;
+}
+
+.vorigeJaar {
+    display: flex;
+    padding-left: 20%;
+    background-color: #00a8f3;
+    font-size: 150%;
+    width: 80%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.vorigeFilms {
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    padding-bottom: 1%;
+}
+.vorigeFilmTekst {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-bottom: 1%;
+}
